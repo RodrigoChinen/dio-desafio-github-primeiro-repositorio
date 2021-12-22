@@ -1,4 +1,18 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git
 
-Para enviar arquivos novos criados na máquina local para o remoto, usar comando "git add ." ou "git add -a)"
+Comando "git clone + link https copiado no CODE do servidor *.git"
+
+Se fizermos alteração na máquina, ao executar comando "git status", será apresentada mensagem de erro em fonte vermelha pedindo para executar comando "add file".
+
+Para enviar arquivos novos criados ou alterados na máquina local para o remoto, usar comando "git add ." ou "git add -a)"
+
+Ao executar "git status", estará OK.
+
+Após, executar comando "git commit -m "comentário pertinente da alteração ou inclusão feita"
+
+"Git Status" pede para usar comando "git push" para publicar no servidor.
+
+Executar "git push origin main"
+
+PUBLICADO NO SERVIDOR!
